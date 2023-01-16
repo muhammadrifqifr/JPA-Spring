@@ -9,4 +9,5 @@ public interface EmployeeService {
     public Boolean save(Employee employee);
     public Boolean delete(Integer id);
     public Integer findIdByEmail(String email);
+    public String findEmailNPass(String email, String password);
 }
